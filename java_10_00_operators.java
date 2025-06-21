@@ -1,4 +1,4 @@
-public class java_08_operators {
+public class java_10_00_operators {
     public static void main(String[] args) {
         // Operators in Java
 
@@ -31,7 +31,8 @@ public class java_08_operators {
         System.out.println("Bitwise XOR: " + (m ^ n)); // Bitwise XOR
         System.out.println("Bitwise Complement of m: " + (~m)); // Bitwise Complement
 
-        // Assignment Operators
+        // Assignment Operators or short hand Operators
+        // Assignment Operators are used to assign values to variables.
         int c = 10;
         c += 5; // c = c + 5
         System.out.println("After += : " + c);
@@ -47,7 +48,13 @@ public class java_08_operators {
 
         // Unary Operators
         int d = 5;
+        System.out.println("subtraction increment: " + (-(-d)));
         System.out.println("Unary Plus: " + (++d)); // Unary Plus
+        System.out.println("Unary Minus: " + (--d)); // Unary Minus
+        System.out.println("Postfix Increment: " + (d++)); // Postfix Increment
+        System.out.println("Postfix Increment: " + (d--)); // Postfix Increment
+
+
         }
          
 

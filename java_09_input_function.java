@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class java_10_input_function {
+public class java_09_input_function {
     public static void main(String[] args) {
         // Input Function in Java
 
