@@ -1,6 +1,6 @@
 import  java.util.Scanner;
 
-public class java_02_example_algerbric_operation_by_user {
+public class java_10_02_example_algerbric_operation_by_user {
 
     public static void main(String[] args){
 
@@ -58,6 +58,14 @@ public class java_02_example_algerbric_operation_by_user {
         input.close();
         // End of the program
         System.out.println("End of the program");
+
+        // precidence of operater       
+        // 1. Parenthesis   
+        // 2. Exponentiation    
+        // 3. Multiplication and Division   
+        // 4. Addition and Subtraction  
+        // 5. Bitwise AND, Bitwise OR, Bitwise XOR, Bitwise Com
+        
 
         
 
