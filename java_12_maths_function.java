@@ -1,8 +1,6 @@
 public class java_12_maths_function {
     public static void main(String[] args) {
-        int a = 10;
-
-        int b = 20;
+       
 
         // all maths function
         System.out.println(Math.max(5, 10));
