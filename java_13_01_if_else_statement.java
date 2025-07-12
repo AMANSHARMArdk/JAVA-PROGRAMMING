@@ -10,7 +10,7 @@ public class java_13_01_if_else_statement {
         int a=input.nextInt();
 
         if (a%2==0){
-
+                                                                                                          
             System.out.println("The number is even");
         }
         else{
@@ -28,13 +28,13 @@ public class java_13_01_if_else_statement {
             else{
                 System.out.println("The number is zero");
                 }
-                input.close();
+              
 
 
         // using  short hand if else statement
         String b=(a%2==0) ? "even" : "odd";
         System.out.println(b);
-
+        input.close();
     }
         
         
